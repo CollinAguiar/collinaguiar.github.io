@@ -6,6 +6,25 @@
     <title>Collin Aguiar</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+
+    <style>
+        .resume-container {
+            text-align: center;
+        }
+
+        .resume-container img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+
+        .resume-actions {
+            margin-top: 1.5rem;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
@@ -18,7 +37,7 @@
             <div class="content">
                 <div class="inner">
                     <h1>Collin Aguiar</h1>
-                    <p>Welcome to my portfolio! Explore my work, skills, and projects, and feel free to reach out.</p>
+                    <p>Welcome to my portfolio! Explore my work, skills, and projects.</p>
                     <p>Click on the sections below to learn more about me.</p>
                 </div>
             </div>
@@ -29,8 +48,7 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#aspirations">Aspirations</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -39,80 +57,69 @@
 
             <article id="about">
                 <h2 class="major">About Me</h2>
-                <!-- <span class="image main"><img src="images/pic01.jpg" alt="Profile Picture"></span> -->
                 <p>Hey there! My name's Collin, and I'm a 17-year-old Junior from Seekonk, Massachusetts. Ever since I played my first video-game, I’ve been hooked on technology.</p>
                 <p>Aside from working on computers, I play Ice Hockey and Lacrosse while also serving as Vice President for my school's Model United Nations club.</p>
             </article>
 
             <article id="projects">
                 <h2 class="major">Projects</h2>
-                <!-- <span class="image main"><img src="images/projects.jpg" alt="Projects"></span> -->
                 <p>Here are some of the services currently running on my homelab:</p>
                 <ul>
                     <li><strong>Jellyfin</strong> - A media server for streaming my family's personal collection of movies, TV shows, and music.</li>
                     <li><strong>Frigate</strong> - An AI powered object detection system for monitoring and analyzing video feeds from my house's security cameras.</li>
                     <li><strong>PhotoPrism</strong> - A photo/video management and organization tool for my extended family's digital album.</li>
                     <li><strong>Games</strong> - Dedicated instances for Minecraft, Terraria, and other multiplayer games for my friends and I.</li>
-                    <li><strong>This Website</strong> - Although I host this site on the cloud rather than locally, here's the <a href="https://github.com/CollinAguiar/collinaguiar.github.io">Source Code</a>.</li>
+                    <li><strong>This Website</strong> - Source code available on <a href="https://github.com/CollinAguiar/collinaguiar.github.io">GitHub</a>.</li>
                 </ul>
             </article>
 
             <article id="skills">
                 <h2 class="major">Technical Skills</h2>
-                <p>My technical knowledge includes:</p>
                 <ul>
-                    <li><strong>Programming:</strong> Python, Bash, Java, HTML, CSS, JavaScript (All self-taught)</li>
-                    <li><strong>Cybersecurity:</strong> Ethical hacking, penetration testing, vulnerability assessment (All from Hack The Box and PicoCTF).</li>
-                    <li><strong>Operating Systems:</strong> Linux (Debian, Arch, Ubuntu), Windows (7, 10, 11).</li>
-                    <li><strong>Server Management:</strong> Linux server hosting, Network management, Network security.</li>
-                    <li><strong>Hardware:</strong> PC building, troubleshooting, performance optimization.</li>
+                    <li><strong>Programming:</strong> Python, Bash, Java, HTML, CSS, JavaScript</li>
+                    <li><strong>Cybersecurity:</strong> Ethical hacking, penetration testing, vulnerability assessment</li>
+                    <li><strong>Operating Systems:</strong> Linux, Windows</li>
+                    <li><strong>Server Management:</strong> Linux servers, networking, security</li>
+                    <li><strong>Hardware:</strong> PC building and optimization</li>
                 </ul>
             </article>
 
             <article id="aspirations">
                 <h2 class="major">Aspirations</h2>
-                <p>My future goals include:</p>
                 <ul>
-                    <li>Enhancing my programming skills by learning <strong>Rust</strong>, <strong>C</strong>, and <strong>PHP</strong>.</li>
-                    <li>Securing an internship in the field of <strong>Cybersecurity</strong> or <strong>general IT</strong>.</li>
-                    <li>Contributing to <strong>open-source projects</strong> related to security and networking.</li>
-                    <li>Pursuing a higher education at institutions like <strong>Carnegie Mellon University</strong>, <strong>Massachusetts Institute of Technology</strong>, or <strong>UMass Amherst</strong>. </li>
+                    <li>Learn Rust, C, and PHP</li>
+                    <li>Cybersecurity or IT internship</li>
+                    <li>Open-source security projects</li>
+                    <li>Attend CMU, MIT, or UMass Amherst</li>
                 </ul>
             </article>
 
             <article id="hobbies">
                 <h2 class="major">Hobbies</h2>
-                <p>Outside of working with computers, I enjoy:</p>
                 <ul>
-                    <li><strong>Hockey & Lacrosse:</strong> Watching the Bruins and playing whenever possible.</li>
-                    <li><strong>Biking:</strong> Exploring trails and taking long rides.</li>
-                    <li><strong>Gaming:</strong> Racing games, strategy games, and some FPS titles.</li>
+                    <li>Hockey & Lacrosse</li>
+                    <li>Biking</li>
+                    <li>Gaming</li>
                 </ul>
             </article>
 
+            <!-- RESUME SECTION -->
             <article id="contact">
-                <h2 class="major">Contact</h2>
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field half">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name">
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email">
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
-                        </div>
+                <h2 class="major">Resume</h2>
+
+                <div class="resume-container">
+                    <a href="/images/resume.jpg" target="_blank">
+                        <img src="/images/resume.jpg" alt="Collin Aguiar Resume">
+                    </a>
+
+                    <div class="resume-actions">
+                        <a href="/images/resume.jpg" download class="button primary">
+                            Download Resume
+                        </a>
                     </div>
-                    <ul class="actions">
-                        <li><button type="button" class="primary" onclick="alert('Sorry, this form doesn\'t work yet, though it will as soon as I set up an SMTP server. Please use the contct information on my Resume for now.');">Send Message</button></li>
-                        <li><button type="reset">Reset</button></li>
-                    </ul>
-                </form>
+                </div>
             </article>
+
         </div>
     </div>
 
